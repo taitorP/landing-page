@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.first-title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #1F2937;    
+}
+
+.second-title {
+    font-size: 38px; 
+    font-weight: 800; 
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 6px 30px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.first-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    row-gap: 6px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;  
+}
+
+.third-title {
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.images,
+.subtexts {
+    display: flex;
+    gap: 20px;
+}
+
+
+.subtexts {
+    text-align: center;
+}
+
+.subtext {
+    width: 104.8px;
+
+}
+
+.third-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #E5E7EB;
+}
+
+.second-paragraph {
+    width: 770px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    padding-left: 450px;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 100px;
+    background-color: #3882f6;
+    margin: 80px 150px;
+    border-radius: 10px;
+}
+
+.non-button {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+.fourth-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.third-paragraph {
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: solid #3882f6;
+}
